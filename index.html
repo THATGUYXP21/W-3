@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>DOM Practice</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1 id="title">DOM Practice</h1>
+    <p class="intro">This text will change</p>
+    <button id="addFruits">Add Item</button>
+    <ul id="list">
+      <li class="item">Apple</li>
+      <li class="item">Bananas</li>
+      <li class="item">Cherries</li>
+    </ul>
+    <div id="contaier"></div>
+    <script src="script.js" defer></script>
+
+    <div id="container">
+      <h2>My List</h2>
+      <p>Clicks <span id="clickCount">0</span></p>
+    </div>
+    <section id="todoApp">
+      <h2>Cameron's Todo List</h2>
+
+      <form id="todoForm">
+        <input type="text" id="todoInput" placeholder="Enter a to-do item" />
+        <button type="submit" id="addTodo">Add Task</button>
+      </form>
+      <p id="todoError"></p>
+      <p id="itemsLeft">0 items left</p>
+      <ul id="todoList"></ul>
+      <ul id="completedList"></ul>
+    </section>
+  </body>
+</html>

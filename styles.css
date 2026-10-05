@@ -1,0 +1,40 @@
+.highlight {
+    background-color: blueviolet;
+}
+
+.hidden {
+    display: none;
+    
+}
+
+.todoApp { 
+    max-width: 500px; margin: 30px auto; 
+} 
+
+.todoForm { 
+    display: flex; gap: 10px; 
+} 
+
+.todoInput { 
+    flex: 1; padding: 10px; 
+} 
+
+.todoForm button { 
+    padding: 10px 20px; cursor: pointer; 
+} 
+
+.todoList { 
+    margin-top: 20px; padding-left: 25px; 
+} 
+
+.todoList li { 
+    margin-bottom: 10px; cursor: pointer; 
+} 
+
+.todoList li.completed { 
+    text-decoration: line-through; 
+} 
+
+.todoError { 
+    color: rgb(13, 36, 215); 
+}
